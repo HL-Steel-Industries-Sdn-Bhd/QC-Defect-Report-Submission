@@ -140,7 +140,7 @@ document.getElementById('submitBtn').addEventListener('click', async () => {
   formData.append('image', imageBlob, `${data.salesOrder}-${data.itemNo}.jpg`);
 
   try {
-    const resp = await fetch('https://script.google.com/macros/s/AKfycbyzIuraV2tB0sfeTXUjnns4wOH38cNzTFzYBJ2D18ghiajv4fv9BktKAEVdsLWyIY11/exec', {
+    const resp = await fetch('https://script.google.com/macros/s/AKfycbxTFbzcaOS0_6tANdoch3Zmy0Mr40jmRuMxPOrX9nw_Wie0Y3O1ss_Ftohcmsf500Q/exec', {
       method: 'POST',
       body: formData
     });
